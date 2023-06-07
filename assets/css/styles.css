@@ -1,0 +1,263 @@
+#main {
+    border: 2px solid black;
+    top: 70;
+    height: 360px;
+    border-radius: 9px;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 10px 20px 0px;
+    height:42px;
+    background-color: #FFEB62;
+    border: 1px solid rgb(128, 123, 123);
+    display: flex;
+}
+
+#header .header_left .avataMiniFb{
+    height:30px;
+    width: 30px;
+    margin: 5px;
+    border: 1px solid rgb(161, 149, 149);
+    border-radius: 50%;
+}
+
+#header .header_left .avataMiniFb .contentF {
+    margin: 8px 10px;
+    font-family: sans-serif;
+}
+
+#header .search-btn {
+    height: 23px;
+    width: 140px;
+    margin: -33px 45px;
+    border: 1px solid rgb(161, 149, 149);
+    border-radius: 25px;
+}
+
+#header .search-btn .contentSearch{
+    margin: 4px 38px;
+    font-family: sans-serif;
+}
+
+#header .header_center {
+    display: flex;
+    margin-left: 202px;
+}
+
+#header .header_center .star {
+    height:30px;
+    width: 30px;
+    margin: 5px 20px;
+    border: 1px solid rgb(161, 149, 149);
+    border-radius: 50%;
+    display: flex;
+}
+
+#header .header_right {
+    display: flex;
+    margin-left: 291px;
+}
+
+#header .header_right .square {
+    height:30px;
+    width: 30px;
+    margin: 5px 10px;
+    border: 1px solid rgb(161, 149, 149);
+    display: flex;
+}
+
+#header .header_right .avtUserMini {
+    height:30px;
+    width: 30px;
+    margin: 5px;
+    border: 1px solid rgb(161, 149, 149);
+    border-radius: 50%;
+}
+
+#header .header_right .avtUserMini .imgAvtUser {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#backgroundfb {
+    position: fixed;
+    display: flex;
+    top: 70;
+    left: 0;
+    right: 0;
+    margin: 70px 153px 0px;
+    height: 120px;
+    background-color: #FFEB62;
+    border: 2px solid rgb(161, 149, 149);
+}
+
+#backgroundfb .avtStarYellow .starYellow {
+    height: 120px;
+    width: 120px;
+    margin: 0px 24px;
+}
+
+#avatarUserFb {
+    position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: 197px 152px 0px;
+    height: 60px;
+    /* background-color: #0f0f0f; */
+}
+
+#avatarUserFb .avatarUserFb_left {
+    display: flex;
+}
+
+#avatarUserFb .avatarUserFb_left .avtUser {
+    height: 100px;
+    width: 100px;
+    margin: -26px 28px;
+    border: 2px solid rgb(161, 149, 149);
+    border-radius: 50%;
+    display: flex;
+}
+
+#avatarUserFb .avatarUserFb_left .avtUser .imgAvt {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+}
+
+#avatarUserFb .avatarUserFb_left .nameUser {
+    margin: -13px -15px;
+    font-family: sans-serif;
+}
+
+#avatarUserFb .avatarUserFb_left .nameUser .text_User_Name {
+    margin: -14px -3px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#avatarUserFb .avatarUserFb_right {
+    margin: 0px 0px 0px 373px;
+}
+
+#avatarUserFb .avatarUserFb_right .button_Mess {
+    height: 23px;
+    width: 200px;
+    margin: 15px 0px 0px 170px;
+    border: 1px solid rgb(161, 149, 149);
+    border-radius: 25px;
+    background-color: #FFEB62;
+}
+
+#avatarUserFb .avatarUserFb_right .button_Mess .iconMess {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    margin-left: 27px;
+}
+
+#avatarUserFb .avatarUserFb_right .button_Mess .text_button_Mess {
+    border-radius: 50%;
+    margin: -23px 0px 0px 52px;
+    font-family: sans-serif;
+}
+
+#avatarUserFb .avatarUserFb_right .note_Button_Mess {
+    margin: -6px 0px 0px 180px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 284px 10px;
+    height: 73px;
+    /* background-color: #FFEB62; */
+    border-top: 2px solid rgb(161, 149, 149);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    display: flex;
+}
+
+#content .content_left {
+    display: flex;
+    margin: 8px 149px;
+}
+
+#content .content_left .content_Button_1{
+    font-family: sans-serif;
+    color: rgb(0, 199, 199);
+    margin-left: 10px;
+}
+
+#content .content_left .content_Button_2, .content_Button_3{
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+#content .content_left .button_down{
+    font-family: sans-serif;
+    margin: 20px 0px;
+    height: 18px;
+    width: 18px;
+}
+
+#content .content_right {
+    display: flex;
+    margin: 15px 0px 0px 406px;
+}
+
+#content .content_right .icon_like{
+    height: 23px;
+    width: 80px;
+    margin: 10px 0px 0px 10px;
+    border: 1px solid rgb(161, 149, 149);
+    border-radius: 6px;
+    background-color: #FFEB62;
+}
+
+#content .content_right .icon_like_text {
+    font-family: sans-serif;
+    color: rgb(0, 199, 199);
+    margin: 4px 24px;
+}
+
+#content .content_right .icon_star {
+    height: 23px;
+    width: 30px;
+    margin: 10px 0px 0px 10px;
+    border: 1px solid rgb(161, 149, 149);
+    border-radius: 6px;
+    background-color: #FFEB62;
+}
+
+#content .content_right .icon_star .icon_star_img {
+    height: 15px;
+    width: 15px;
+    margin: 4px 0px 0px 8px;
+    border-radius: 6px;
+}
+
+#content .content_right .icon_cham {
+    height: 23px;
+    width: 30px;
+    margin: 10px 0px 0px 10px;
+    border: 1px solid rgb(161, 149, 149);
+    border-radius: 6px;
+    background-color: #FFEB62;
+}
+
+#content .content_right .icon_cham .icon_3cham_img {
+    height: 15px;
+    width: 20px;
+    margin: 4px 0px 0px 6px;
+    border-radius: 6px;
+}
